@@ -54,16 +54,10 @@ section{position:relative;}
 .bgph{position:absolute;z-index:0;opacity:.85;}
 .frame{border:3px solid var(--sec);border-radius:14px;background:var(--card);
  padding:8px 34px 30px;position:relative;box-shadow:var(--sh-raised);}
-.frame .deco{position:absolute;top:-16px;right:24px;background:var(--card);
- padding:0 12px;font-size:1.4rem;letter-spacing:8px;line-height:1;}
-.frame .deco-b{position:absolute;bottom:-16px;left:24px;background:var(--card);
- padding:0 12px;font-size:1.3rem;letter-spacing:8px;line-height:1;}
 @media (max-width:620px){.frame{padding:8px 18px 24px;}}
 .wideframe{border:3px solid var(--sec);border-radius:14px;background:var(--sec-soft);
  padding:28px 34px;margin-top:32px;position:relative;}
 .wideframe p{font-size:1rem;max-width:none;}
-.wideframe .deco{position:absolute;top:-16px;right:24px;background:var(--sec-soft);
- padding:0 12px;font-size:1.4rem;letter-spacing:8px;line-height:1;}
 .bg{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0;}
 .hexfield{position:absolute;left:-4%;top:0;width:74%;height:100%;
  -webkit-mask-image:radial-gradient(ellipse 62% 54% at 42% 48%,#000 38%,rgba(0,0,0,.45) 62%,transparent 82%);
@@ -413,7 +407,6 @@ img{max-width:100%;}
  .head .ico{width:46px;height:46px;}
  .kicker{font-size:.98rem;}
  .frame{border-width:2px;border-radius:12px;}
- .frame .deco,.frame .deco-b,.wideframe .deco{display:none;}
  .wideframe{padding:20px;border-width:2px;}
  .facts{gap:8px;} .fact{padding:12px 14px;flex:1 1 44%;}
  .fact b{font-size:1.35rem;} .fact span{font-size:.76rem;}
@@ -498,8 +491,6 @@ img{max-width:100%;}
  </div>
  <h2>Три состояния, с которыми ко мне приходят</h2>
  <div class="frame" style="margin-top:26px;">
- <div class="deco">🧪⚗️🧫</div>
- <div class="deco-b">💧🔥</div>
  <div class="row"><div class="rt"><i>📉</i>Учит, но не растёт</div>
  <div class="rd"><b>«Сидит над учебником, а оценки те же»</b>Значит, учит не то. Где-то ниже по программе осталась незакрытая база, и новые темы просто не на что положить.</div></div>
  <div class="row"><div class="rt"><i>⏳</i>Год до экзамена</div>
@@ -529,7 +520,6 @@ img{max-width:100%;}
  </div>
  <h2>Что происходит за первые 30 минут</h2>
  <div class="frame" style="margin-top:24px;max-width:880px;">
- <div class="deco">⚗️🔬</div>
  <div class="steps">
  <div class="step"><div><h3><i>🧪</i>Короткий срез знаний</h3><p>Несколько задач разного уровня — от строения атома до органики. Не контрольная, оценок не ставлю.</p></div></div>
  <div class="step"><div><h3><i>🔍</i>Находим, где порвалась цепочка</h3><p>Почти всегда провал упирается в одну-две конкретные темы ниже по программе. Их и называю.</p></div></div>
@@ -552,8 +542,6 @@ img{max-width:100%;}
  </div>
  <h2>С чем работаю</h2>
  <div class="frame" style="margin-top:24px;max-width:880px;">
- <div class="deco">🧬🧪</div>
- <div class="deco">🧬🧪</div>
  <div class="row"><div class="rt"><i>🎓</i>ЕГЭ по химии</div><div class="rd">Полный курс с любого уровня, включая нулевой. Разбор второй части и задач на растворы.</div></div>
  <div class="row"><div class="rt"><i>📘</i>ОГЭ по химии</div><div class="rd">9 класс. Все мои выпускники сдали на 4 и 5.</div></div>
  <div class="row"><div class="rt"><i>📝</i>ВПР</div><div class="rd">Быстрая подготовка за 4–6 занятий.</div></div>
@@ -591,7 +579,6 @@ img{max-width:100%;}
  </div>
  </div>
  <div class="wideframe">
- <div class="deco">⚖️</div>
  <p><strong>Договорённость по результату.</strong> Если через месяц занятий пробники не сдвинулись — возвращаю стоимость последнего занятия. Условие одно: сделано не меньше 80% домашних заданий. Без домашки химия не работает, и честнее сказать это сразу, чем через полгода разводить руками. Я не беру больше учеников, чем могу вести, — именно поэтому могу отвечать за результат каждого.</p>
  <p style="margin-top:14px;"><strong>Про пропуски.</strong> О пропуске занятия нужно предупредить не позже чем за 24 часа. Если предупредить позже, занятие сгорает: оно не переносится и деньги за него не возвращаются. Это не строгость ради строгости — время в расписании уже занято под вашего ребёнка, и отдать его кому-то за час я не смогу.</p>
  </div>
@@ -640,7 +627,6 @@ img{max-width:100%;}
  </div>
  </div>
  <div class="wideframe" style="background:var(--card);">
- <div class="deco" style="background:var(--card);">📥</div>
  <p><strong>Как это работает.</strong> Оставляете заявку — я присылаю ссылку на оплату, а сразу после неё материалы в Telegram. Если взяли один блок, а потом захотели остальное — доплата до полного курса 1 200 ₽. Всё лежит у вас навсегда, пересматривать можно сколько угодно раз.</p>
  </div>
  </div>
@@ -730,8 +716,6 @@ img{max-width:100%;}
  </div>
  <h2>Что обычно спрашивают</h2>
  <div class="frame" style="margin-top:24px;max-width:880px;">
- <div class="deco">💬🧪</div>
- <div class="deco">💬🧪</div>
  <details open><summary>Диагностика правда бесплатная?</summary><p>Да, и это не урезанный урок ради галочки. Тридцать минут, срез знаний и устный план подготовки. План ваш в любом случае — даже если после него вы уйдёте к другому репетитору.</p></details>
  <details><summary>Занятия только онлайн?</summary><p>Да, онлайн. За два года у меня занимались ребята из разных городов — на результат формат не влияет, а вот дорога съедает по часу в каждую сторону.</p></details>
  <details><summary>Ребёнок в 11 классе и начинает с нуля. Успеем?</summary><p>Скажу честно после диагностики. С нуля до 75+ за год — реально при двух занятиях в неделю и сделанной домашке. За три месяца — нет, и я не буду обещать обратное, чтобы взять деньги.</p></details>
